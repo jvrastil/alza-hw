@@ -1,0 +1,37 @@
+.item {
+  width: 150px;
+  text-align: center;
+  padding: 3px 5px;
+  border-radius: 3px;
+  background-color: #ccc;
+  margin-bottom: 3px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.item:hover, .highlighted {
+  border: 2px solid black;
+  background-color: #ffd802;
+}
+
+.selected {
+  background-color: #ffd802;
+}
+
+.btn-container {
+  display: inline-flex;
+}
+
+.btn {
+  width: 75px;
+  text-align: center;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background-color: #cccccc;
+  border: 2px solid transparent;
+}
+
+.btn:hover {
+  border: 2px solid black;
+  background-color: #ffd802;
+}

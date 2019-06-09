@@ -1,0 +1,40 @@
+.dasboard {
+  display: flex;
+}
+
+.dasboard-tile {
+  display: inline-block;
+  height: 80px;
+  width: 100px;
+  margin-right: 5px;
+  padding: 3px 7px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 2px solid transparent;
+}
+
+.dasboard-tile:hover {
+  border: 2px solid black;
+}
+
+.dasboard-tile div {
+  position: relative;
+  top: 15px;
+  text-align: center;
+}
+
+.rank-0 {
+  background-color: #ffd802;
+}
+
+.rank-1 {
+  background-color: #ccc;
+}
+
+.rank-2 {
+  background-color: #ff8000;
+}
+
+.rank-3 {
+  background-color: #009bde;
+}

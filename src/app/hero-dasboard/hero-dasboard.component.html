@@ -1,0 +1,10 @@
+<div class="dasboard">
+  <ng-container *ngFor="let heroId of favouriteHeroes; let i = index">
+    <div
+      *ngIf="i < 4"
+      [class]="getClass(i)" (click)="showDetail(heroId)">
+      <div class="hero-name">{{ getHeroName(heroId) }}</div>
+      <div class="hero-rank">Rank: {{ i + 1 }}</div>
+    </div>
+  </ng-container>
+</div>

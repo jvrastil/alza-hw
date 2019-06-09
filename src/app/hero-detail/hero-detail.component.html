@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Edit Hero</h1>
+<div mat-dialog-content>
+  Hero ID: {{ heroId }}
+  <br>
+  Hero name:
+  <input
+    matInput
+    placeholder="Set hero name"
+    [value]="heroName"
+    (input)="heroName = $event.target.value">
+</div>
+<hr>
+<div class="btn-container">
+  <button mat-dialog-close class="btn" (click)="onHeroNameChange()">Save</button>
+  <button mat-dialog-close class="btn" style="margin-right: 5px;">Cancel</button>
+</div>

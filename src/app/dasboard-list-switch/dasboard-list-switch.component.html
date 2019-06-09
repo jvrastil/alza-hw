@@ -1,0 +1,15 @@
+<div class="container">
+  <div
+    class="switch-tile"
+    (click)="select(DisplayComponentEnum.DASHBOARD)"
+    style="margin-right: 10px;"
+    [ngClass]="{'selected': selectedComponent === DisplayComponentEnum.DASHBOARD}">
+    DASHBOARD
+  </div>
+  <div
+    class="switch-tile"
+    (click)="select(DisplayComponentEnum.LIST)"
+    [ngClass]="{'selected': selectedComponent === DisplayComponentEnum.LIST}">
+    HEROES
+  </div>
+</div>
